@@ -45,4 +45,4 @@ jobs:
     - name: Install NuGet client
       uses: NuGet/setup-nuget@v2.0.0      
     - name: Push generated package to Nuget.Org
-      run: nuget push ./out/*.nupkg -ApiKey ${{secrets.NUGET_PUSH_KEY}} -SkipDuplicate
+      run: nuget push ./out/*.nupkg -ApiKey ${{secrets.NUGET_PUSH_KEY}} --Source "https://api.nuget.org/v3/index.json" -SkipDuplicate
