@@ -43,6 +43,6 @@ jobs:
       run: |
          dotnet pack ./LongestIncreasingSequence/LongestIncreasingSequence.Lib/LongestIncreasingSequence.Lib.csproj -c Release -o out
     - name: Install NuGet client
-      uses: warrenbuckley/Setup-Nuget@v1
-    - name: Push generated package to GitHub registry
+      uses: NuGet/setup-nuget@v2.0.0      
+    - name: Push generated package to Nuget.Org
       run: nuget push *.nupkg -ApiKey ${{secrets.NUGET_PUSH_KEY}} -Source "https://github.com/ajayess/59a94f97-4565-43c2-9f60-99d424f1cba8" -SkipDuplicate
