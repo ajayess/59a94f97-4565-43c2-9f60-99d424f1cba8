@@ -24,9 +24,9 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore ./LongestIncreasingSequence
     - name: Build
-      run: dotnet build --no-restore -c Release
+      run: dotnet build ./LongestIncreasingSequence --no-restore -c Release
     - name: Test
-      run: dotnet test --configuration Release --no-build --verbosity normal --collect:"XPlat Code Coverage" --results-directory ./coverage
+      run: dotnet test ./LongestIncreasingSequence --configuration Release --no-build --verbosity normal --collect:"XPlat Code Coverage" --results-directory ./coverage
     - name: Code Coverage Report
       uses: irongut/CodeCoverageSummary@v1.3.0
       with:
@@ -42,7 +42,7 @@ jobs:
     - name: Publish to NuGet
       uses: brandedoutcast/publish-nuget@v2.5.5
       with:
-        PROJECT_FILE_PATH: LongestIncreasingSequence/LongestIncreasingSequence.Lib/LongestIncreasingSequence.Lib.csproj
+        PROJECT_FILE_PATH: ./LongestIncreasingSequence/LongestIncreasingSequence.Lib/LongestIncreasingSequence.Lib.csproj
         PACKAGE_NAME: LongestIncreasingSequence
         VERSION_STATIC: ‘1.0.0’
         NUGET_KEY: ${{secrets.NUGET_PUSH_KEYNU}}
