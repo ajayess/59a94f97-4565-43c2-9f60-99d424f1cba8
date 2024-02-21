@@ -39,12 +39,6 @@ jobs:
         indicators: true
         output: both
         thresholds: '60 80'
-    - name: Add Coverage report
-      uses: edaniels/CodeCoverageSummary@v1.2.3
-      with:
-        filename: coverage/**/coverage.cobertura.xml
-        badge: true
-        format: markdown
     - name: Publish to NuGet
       uses: brandedoutcast/publish-nuget@v2.5.5
       with:
