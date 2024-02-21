@@ -40,9 +40,9 @@ jobs:
         output: both
         thresholds: '60 80'
     - name: Publish to NuGet
-      uses: brandedoutcast/publish-nuget@v2.5.5
-      with:
-        PROJECT_FILE_PATH: ./LongestIncreasingSequence/LongestIncreasingSequence.Lib/LongestIncreasingSequence.Lib.csproj
-        PACKAGE_NAME: LongestIncreasingSequence
-        VERSION_STATIC: ‘1.0.0’
-        NUGET_KEY: ${{secrets.NUGET_PUSH_KEY}}
+      run: |
+         dotnet pack ./LongestIncreasingSequence/LongestIncreasingSequence.Lib/LongestIncreasingSequence.Lib.csproj -c Release -o out
+    - name: Install NuGet client
+      uses: warrenbuckley/Setup-Nuget@v1
+    - name: Push generated package to GitHub registry
+      run: nuget push *.nupkg -ApiKey ${{secrets.NUGET_PUSH_KEY}} -Source "https://github.com/ajayess/59a94f97-4565-43c2-9f60-99d424f1cba8" -SkipDuplicate
