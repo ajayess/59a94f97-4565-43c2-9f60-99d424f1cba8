@@ -14,6 +14,10 @@
 1. Run below commands to make solution running in the Docker. Go to the solution folder
 	- docker build . -t lis
 	- docker run -i lis:latest
-2. Just run "LongestIncreasingSequence.App"
+2. Run "LongestIncreasingSequence.App" with Dotnet CLI. 	
+    - dotnet restore
+	- dotnet run --project .\LongestIncreasingSequence.App\LongestIncreasingSequence.App.csproj
+	- Run Tests using below CLI command
+		- dotnet test	
 
 

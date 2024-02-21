@@ -10,14 +10,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{3009B000-128E-4140-A739-736F7D4EF3BC}"
 	ProjectSection(SolutionItems) = preProject
 		Dockerfile = Dockerfile
-		ReadMe.md = ReadMe.md
+		..\ReadMe.md = ..\ReadMe.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestIncreasingSequence.Lib", "LongestIncreasingSequence.Lib\LongestIncreasingSequence.Lib.csproj", "{B223E434-F14D-4F61-A601-71F45F9EDF31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestIncreasingSequence.Lib", "LongestIncreasingSequence.Lib\LongestIncreasingSequence.Lib.csproj", "{B223E434-F14D-4F61-A601-71F45F9EDF31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestIncreasingSequence.App", "LongestIncreasingSequence.App\LongestIncreasingSequence.App.csproj", "{DCF92B83-79CC-497E-8060-32F3BA96AB1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestIncreasingSequence.App", "LongestIncreasingSequence.App\LongestIncreasingSequence.App.csproj", "{DCF92B83-79CC-497E-8060-32F3BA96AB1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestIncreasingSequence.UnitTests", "LongestIncreasingSequence.UnitTests\LongestIncreasingSequence.UnitTests.csproj", "{09E79F60-E1B1-4B00-831A-8AC22441255B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestIncreasingSequence.UnitTests", "LongestIncreasingSequence.UnitTests\LongestIncreasingSequence.UnitTests.csproj", "{09E79F60-E1B1-4B00-831A-8AC22441255B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
