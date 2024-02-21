@@ -1,0 +1,12 @@
+C:\Work\XAP\Demos\LongestIncreasingSequence\LongestIncreasingSequence.Lib\obj\Debug\net7.0\LongestIncreasingSequence.Lib.csproj.AssemblyReference.cache
+C:\Work\XAP\Demos\LongestIncreasingSequence\LongestIncreasingSequence.Lib\obj\Debug\net7.0\LongestIncreasingSequence.Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\XAP\Demos\LongestIncreasingSequence\LongestIncreasingSequence.Lib\obj\Debug\net7.0\LongestIncreasingSequence.Lib.AssemblyInfoInputs.cache
+C:\Work\XAP\Demos\LongestIncreasingSequence\LongestIncreasingSequence.Lib\obj\Debug\net7.0\LongestIncreasingSequence.Lib.AssemblyInfo.cs
+C:\Work\XAP\Demos\LongestIncreasingSequence\LongestIncreasingSequence.Lib\obj\Debug\net7.0\LongestIncreasingSequence.Lib.csproj.CoreCompileInputs.cache
+C:\Work\XAP\Demos\LongestIncreasingSequence\LongestIncreasingSequence.Lib\bin\Debug\net7.0\LongestIncreasingSequence.Lib.deps.json
+C:\Work\XAP\Demos\LongestIncreasingSequence\LongestIncreasingSequence.Lib\bin\Debug\net7.0\LongestIncreasingSequence.Lib.dll
+C:\Work\XAP\Demos\LongestIncreasingSequence\LongestIncreasingSequence.Lib\bin\Debug\net7.0\LongestIncreasingSequence.Lib.pdb
+C:\Work\XAP\Demos\LongestIncreasingSequence\LongestIncreasingSequence.Lib\obj\Debug\net7.0\LongestIncreasingSequence.Lib.dll
+C:\Work\XAP\Demos\LongestIncreasingSequence\LongestIncreasingSequence.Lib\obj\Debug\net7.0\refint\LongestIncreasingSequence.Lib.dll
+C:\Work\XAP\Demos\LongestIncreasingSequence\LongestIncreasingSequence.Lib\obj\Debug\net7.0\LongestIncreasingSequence.Lib.pdb
+C:\Work\XAP\Demos\LongestIncreasingSequence\LongestIncreasingSequence.Lib\obj\Debug\net7.0\ref\LongestIncreasingSequence.Lib.dll
